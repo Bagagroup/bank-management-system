@@ -19,18 +19,26 @@ src/main/java/com/bank
 	1.	Config
 	•	SecurityConfig – Configures Spring Security for authentication and authorization.
 	•	PasswordGenerator – Utility class for password hashing.
+
+
 	2.	Controller
 	•	BankController – Manages user registration, login, and banking operations.
 	•	AccountController – Handles account-related actions.
 	•	TransactionController – Handles transactions (withdraw, deposit).
+
+
 	3.	Model
 	•	User – Represents a user with username, password, and roles.
 	•	Account – Represents bank accounts.
 	•	Transaction – Represents financial transactions.
+
+
 	4.	Repository
 	•	UserRepository – Fetches user details for authentication.
 	•	AccountRepository – Fetches and manages account data.
 	•	TransactionRepository – Handles transaction data.
+
+
 	5.	Service
 	•	UserService – Handles user registration and authentication.
 	•	AccountService – Handles account-related business logic.
