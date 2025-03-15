@@ -16,6 +16,8 @@ src/main/java/com/bank
 ⸻
 
 🔍 Key Components
+
+
 	1.	Config
 	•	SecurityConfig – Configures Spring Security for authentication and authorization.
 	•	PasswordGenerator – Utility class for password hashing.
